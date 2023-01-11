@@ -1,0 +1,185 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  display: grid;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-height: 100vh;
+  text-align: center;
+  margin: 1rem;
+}
+
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  margin-bottom: 0.4rem;
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 59%);
+}
+h1 b {
+  color: hsl(209deg, 33%, 12%);
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: rgba(124, 123, 123, 0.8);
+}
+
+#logo {
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.email {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid rgb(115, 206, 255);
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.error {
+  color: hsl(354deg, 100%, 66%);
+  font-size: 0.6rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.bor {
+  border: 1px solid hsl(354deg, 100%, 66%);
+}
+
+.error-M {
+  display: block;
+}
+
+button {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: rgb(79, 125, 243);
+  border: 1px solid transparent;
+  margin-bottom: 3rem;
+  color: white;
+  transition: all 800ms;
+}
+
+button:hover {
+  background-color: rgba(79, 125, 243, 0.7);
+}
+
+.chart {
+  width: 100%;
+  height: 10rem;
+  transition: all 1s;
+}
+
+.chart:hover {
+  border: 3px solid hsl(223deg, 100%, 88%);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.fa-brands {
+  font-size: 1.3rem;
+  transition: all 300ms;
+}
+
+.fa-brands:hover {
+  color: hsl(223deg, 100%, 88%);
+  font-size: 2rem;
+}
+
+.foot {
+  font-size: smaller;
+}
+
+.error-D {
+  display: none;
+}
+
+@media screen and (min-width: 380px) {
+  main {
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+}
+@media screen and (min-width: 600px) {
+  main {
+    width: 80vw;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .email {
+    width: 60%;
+    display: inline;
+  }
+  button {
+    display: inline;
+    width: 30%;
+  }
+  .error-M {
+    display: none;
+  }
+  .error-D {
+    display: block;
+    position: absolute;
+    top: 2.5rem;
+    left: 1.8rem;
+  }
+  .icons {
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}/*# sourceMappingURL=input.css.map */
