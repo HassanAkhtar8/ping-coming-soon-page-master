@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Author
 
+- Hassan Akhtar
 - Website - [Github Profile](https://github.com/HassanAkhtar8)
-- Frontend Mentor - [@HassanAkhtar8](https://www.frontendmentor.io/profile/HassanAkhtar8)
